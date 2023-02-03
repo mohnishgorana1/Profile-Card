@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #31294a;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    /* color:aliceblue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    /* margin:100px auto; */
+    margin: 100px;
+    padding:10px;
+    border-radius: 5px;
+    /* border: 1px dashed; */
+
+    height:75vh;
+    width: 45vw;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    /* justify-content: space-around; */
+
+    background-color:#26203a;
+}
+.card:hover{
+    height:80vh;
+    width:50vw;
+}
+
+
+.profile{
+    /* border:1px dashed; */
+    padding:15px 20px;
+    margin:20px;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+
+}
+.info{
+    
+    margin:2px;
+    padding: 5px;
+    /* border:1px dashed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    
+
+}
+
+.info img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:2px solid #d9bddc;
+    margin:2px;
+}
+img:hover{
+    height:180px;
+    width:180px;
+}
+.info h3{
+    color:aliceblue;
+    font-weight: 600;
+    font-size:25px;
+}
+.info p{
+    color:#dde4eb;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.info :hover{
+    color:#166368;
+}
+
+.function
+{
+    display: flex;
+    gap:20px;
+}
+
+/* .function > button{
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+
+} */
+
+.primary-btn{
+    margin: 3px;
+    background-color: #05BECB;
+    padding:5px 10px;
+    border:0px;
+    border-radius: 3px;
+    color:#d8e8e9;
+    font-size: 15px;
+}
+.secondary-btn{
+    margin: 3px;
+    background-color: #292240;
+    padding:5px 10px;
+    border:1px solid  #05BECB;;
+    border-radius: 3px;
+    color:  #05BECB;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
+/* hover effect on fn btns */
+.primary-btn:hover{
+    cursor: pointer;
+    border:1px solid  #05BECB;
+    color:  #05BECB;
+    background-color: #292240;
+}
+
+.secondary-btn:hover{
+    cursor: pointer;
+    background-color: #05BECB;
+    color:#d8e8e9;
+}
+
+
+.skill{
+    padding:5px;
+    background-color:#332c4c;
+    border-radius: 3px;
+    /* border:1px dashed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill h4{
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    align-self: center;
+
+}
+.skill-list{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+.skill-btn{
+    margin:5px;
+    padding:5px 8px;
+    background-color: #292240;
+    color:#b5afcf;
+    border:0.1px solid #332c4c;
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+
+
+
+
+
+@media (401px <= width <= 450x) {
+    
+    body{
+        background-color: #fff;
+    }
+    
+}
