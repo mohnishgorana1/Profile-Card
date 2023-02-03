@@ -188,8 +188,8 @@ img:hover{
 
 @media (401px <= width <= 450x) {
     
-    body{
-        background-color: #fff;
-    }
+   card{
+    width:100vw;
+   }
     
 }
